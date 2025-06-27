@@ -6,7 +6,7 @@ SELECT
 FROM 
     Members
 WHERE 
-    DAY(DateOfBirth) = 20
+    DAY(DateOfBirth) = 20 AND MONTH(DateOfBirth) = 07
 ORDER BY 
     MemberID ASC
 LIMIT 1;
